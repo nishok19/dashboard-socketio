@@ -1,0 +1,158 @@
+{
+  "title": "E-Commerce Performance Dashboard",
+  "lastUpdated": "2024-11-30T10:00:00Z",
+  "widgets": [
+    {
+      "type": "kpi",
+      "id": "total_revenue",
+      "title": "Total Revenue",
+      "value": "$1,500,000",
+      "change": "+12%",
+      "icon": "dollar-sign"
+    },
+    {
+      "type": "kpi",
+      "id": "orders",
+      "title": "Total Orders",
+      "value": 3520,
+      "change": "+8%",
+      "icon": "shopping-cart"
+    },
+    {
+      "type": "kpi",
+      "id": "average_order_value",
+      "title": "Avg. Order Value",
+      "value": "$425",
+      "change": "+3%",
+      "icon": "chart-bar"
+    },
+    {
+      "type": "lineChart",
+      "id": "revenue_trend",
+      "title": "Revenue Trend (Last 6 Months)",
+      "data": [
+        {
+          "month": "June",
+          "revenue": 200000
+        },
+        {
+          "month": "July",
+          "revenue": 220000
+        },
+        {
+          "month": "August",
+          "revenue": 250000
+        },
+        {
+          "month": "September",
+          "revenue": 280000
+        },
+        {
+          "month": "October",
+          "revenue": 300000
+        },
+        {
+          "month": "November",
+          "revenue": 350000
+        }
+      ]
+    },
+    {
+      "type": "pieChart",
+      "id": "category_distribution",
+      "title": "Sales by Category",
+      "data": [
+        {
+          "category": "Electronics",
+          "value": 40
+        },
+        {
+          "category": "Fashion",
+          "value": 25
+        },
+        {
+          "category": "Home & Kitchen",
+          "value": 20
+        },
+        {
+          "category": "Beauty",
+          "value": 10
+        },
+        {
+          "category": "Others",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "type": "barChart",
+      "id": "top_products",
+      "title": "Top Selling Products",
+      "data": [
+        {
+          "product": "Smartphone X",
+          "unitsSold": 350
+        },
+        {
+          "product": "Wireless Earbuds",
+          "unitsSold": 300
+        },
+        {
+          "product": "4K TV",
+          "unitsSold": 250
+        },
+        {
+          "product": "Blender Pro",
+          "unitsSold": 200
+        },
+        {
+          "product": "Running Shoes",
+          "unitsSold": 180
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "recent_orders",
+      "title": "Recent Orders",
+      "columns": ["Order ID", "Customer", "Date", "Total", "Status"],
+      "rows": [
+        {
+          "Order ID": "A12345",
+          "Customer": "John Doe",
+          "Date": "2024-11-29",
+          "Total": "$500",
+          "Status": "Shipped"
+        },
+        {
+          "Order ID": "A12346",
+          "Customer": "Jane Smith",
+          "Date": "2024-11-29",
+          "Total": "$150",
+          "Status": "Pending"
+        },
+        {
+          "Order ID": "A12347",
+          "Customer": "Michael Brown",
+          "Date": "2024-11-28",
+          "Total": "$1,200",
+          "Status": "Delivered"
+        },
+        {
+          "Order ID": "A12348",
+          "Customer": "Emily Davis",
+          "Date": "2024-11-28",
+          "Total": "$700",
+          "Status": "Shipped"
+        },
+        {
+          "Order ID": "A12349",
+          "Customer": "Chris Wilson",
+          "Date": "2024-11-27",
+          "Total": "$250",
+          "Status": "Canceled"
+        }
+      ]
+    }
+  ]
+}
